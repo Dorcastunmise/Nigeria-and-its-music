@@ -109,14 +109,18 @@ nav.dark .toggler--slider {
 /* MAIN styles */
 main {
   padding: 57px 27px;
-  background: url("./src/components/burna.jpg") no-repeat  left center; 
+  background: url(./components/burna.jpg);
+  background-position: left center; 
+  background-repeat: no-repeat;
   flex: 1 1 auto;
   background-color: white;
   color: #2B283A;
 }
 
 main.dark {
-  background: url("./src/components/large-logo.jpg") no-repeat right center; 
+  background: url(./components/large-logo.jpg); 
+  background-position: right center;
+  background-repeat: no-repeat;
   background-color: #282D35;
   color: white;    
 }
